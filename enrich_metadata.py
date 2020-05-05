@@ -3,7 +3,7 @@ from urllib.parse import quote
 import requests
 import xml.etree.ElementTree as ET
 
-METADATA_PATH = '/Users/aman/Downloads/metadata.csv'
+METADATA_PATH = ''
 apis = [('https://api.crossref.org/works/{}', 'crossref'), ('https://api.medra.org/metadata/{}', 'medra')]
 preprint_doi_count = 0
 not_found_list = []
