@@ -189,5 +189,3 @@ def search_by_keyword(keyword, filename):
     tweets = extract_data(keyword, statuses)
     tweets = pd.DataFrame(tweets)
     tweets.to_csv(DOWNLOAD_PATH + filename)
-
-search_by_keyword('hello', 'asdf.csv')
