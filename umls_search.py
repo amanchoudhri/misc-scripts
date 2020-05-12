@@ -80,7 +80,5 @@ def pretty_print(results, type_called):
     except TypeError:
         pass
 
-search_results, search_type = search('Interferon-alpha 2A', 'Interferon alpha 2A', 'Interferon-alpha-2A',
-                        'IFNalpha2A', 'IFN alpha 2a', 'Hu-IFN- alpha A [2a]', 'IFN-α 2a', 'IFNα 2a',
-                        'Peginterferon alfa-2a', 'Pegasys', search_type='words')
+search_results, search_type = search('HCQ', 'CQ', 'AZT', search_type='words')
 pretty_print(search_results, search_type)
